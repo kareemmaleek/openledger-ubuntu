@@ -71,11 +71,12 @@ install_prerequisite(){
 
     ip_address=$(hostname -I | awk '{print $1}')
 
-    echo "---------------------------------------"
-    echo "             Connect to RDP            "
-    echo "---------------------------------------"
-    echo "         RDP Host: $ip_address         "
-    echo "---------------------------------------"
+    echo "--------------------------------------------"
+    echo "              Connect to RDP                "
+    echo "--------------------------------------------"
+    echo "           RDP Host: $ip_address            "
+    echo " Open RDP then login with root credentials  "
+    echo "--------------------------------------------"
     echo "1. Upload the latest openledger version file or download with command below:"
     echo "run command "wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip""
     echo "2. Unzip archived file"
