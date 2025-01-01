@@ -87,4 +87,4 @@ install_prerequisite(){
     echo "---------------------------------------"
 }
 
-install_prerequisite()
+install_prerequisite
