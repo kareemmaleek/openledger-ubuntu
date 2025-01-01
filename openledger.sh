@@ -78,7 +78,7 @@ install_prerequisite(){
     echo " Open RDP then login with root credentials  "
     echo "--------------------------------------------"
     echo "1. Upload the latest openledger version file or download with command below:"
-    echo "run command "wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip""
+    echo "run command \"wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip\""
     echo "2. Unzip archived file"
     echo "3. Double Click or Open .deb extracted file"
     echo "4. Install Package"
